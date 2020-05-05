@@ -17,6 +17,11 @@ class Solution(object):
 
 s = Solution()
 
-print(s.twoSum([2,7,11,2], 4))
+
+# Test case
+nums = [2,7,11,2]
+target = 4
+
+result = s.twoSum(nums, target)
 
         
